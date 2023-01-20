@@ -1,0 +1,186 @@
+/************************************* elements *****************************/
+body {
+  margin: 0px auto 0px auto;  
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 45px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-weight: bold;  
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/************************************** classes *****************************/
+
+.forty {
+  font-size: 2rem;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.skill-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;  
+}
+
+.skill-image2 {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 325px;
+  bottom: 300px;
+}
+
+.top-cloud {  
+  position: absolute;
+  right: 660px;
+  top: 50px;
+}
+
+.moon {
+  position: absolute;
+  right: 325px;
+  top: 50px;
+}
+
+/* How things display: Block, Inline, Inline-Block, None (Visibility/Hidden vs Display/None- Hides vs Removes - Removes the element)
+1) Block Elements: Paragraphs <p>, Headers <h1>, Divisions <div>, Lists <ol, ul>, and Forms  (fixed width)
+2) Inline Elements: Spans <span>, images <imp>, anchors <a>  (you can change the width)
+3) Inline-Block: allows block elements to act like inline elements - they can reside on the same line
+
+1) Static Positioning is the normal HTML flow
+2) Relative Positioning is adding a margin to where the object should have been vs it's natural flow/default position T,B,R & L - left 30px takes the element 30 px's to the left of where it would normally be
+- Moving an element with relative positioning does not affect the position of anything else on the screen - other elements just flow around it as if it were still in it's old position
+- elements move relative to parent or HTML default container spec's
+3) Absolute Positioning is adding a margin relative to the parent object - right 30px takes the element 30px from the right side, left 30px takes the element 30px from the left edge
+- Absolute positioning takes the element out of the natural flow/default position - other elements move as if it were never there
+4) Fixed Positioning is locking an element to a certain, specific position relative to it's parent element
+
+1) Content is everything - block element with content will be taller than empty element, but still full width
+2) Default layout order is dictated by sequence of HTML elements
+3) Child elements sit on top of parent elements
+
+
+
+/***************************************** id's ******************************/
